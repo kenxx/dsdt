@@ -1,0 +1,69 @@
+18:324  13:546  Found BIOS RSDP at F0430
+18:324  0:000  Saving ACPI tables from RSDP F0430 to EFI\CLOVER\ACPI\origin ...
+18:324  0:000   F0430: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+18:341  0:016    (Xsdt: BF7FEE18, Rsdt: BF7FEF18)
+18:341  0:000    BF7FEE18: 'XSDT', 'Notebook', Rev: 1, Len: 108 -> XSDT.aml
+18:352  0:011    BF7FEF18: 'RSDT', 'Notebook', Rev: 1, Len: 72 -> RSDT.aml
+18:369  0:016    Tables in Xsdt: 9
+18:369  0:000    0. BF79BD98: 'FACP', 'NoteBook', Rev: 4, Len: 244 -> FACP.aml
+18:378  0:009        (Dsdt: BF767018, Facs: BF7E5E40, XDsdt: BF767018, XFacs: BF7E5D40)
+18:378  0:000        BF767018: 'DSDT', 'NoteBook', Rev: 1, Len: 42600 -> DSDT.aml
+18:404  0:025        BF7E5D40: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+18:418  0:013    1. BF7FDF18: 'APIC', 'NoteBook', Rev: 2, Len: 204 -> APIC.aml
+18:437  0:018    2. BF7E6D18: 'HPET', 'NoteBook', Rev: 1, Len: 56 -> HPET.aml
+18:447  0:010    3. BF7E5B18: 'ECDT', 'NoteBook', Rev: 1, Len: 193 -> ECDT.aml
+18:462  0:014    4. BF7E6C98: 'MCFG', 'NoteBook', Rev: 1, Len: 60 -> MCFG.aml
+18:474  0:011    5. BF77E018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2011 -> SSDT-0.aml
+18:488  0:013    6. BF77D018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+ Found hidden SSDT 4 pcs
+18:488  0:000        * 1E7D018: 'SXSS', ' еч', Rev: 32, Len: 2011  53 58 53 53 DB 07 00 00 20 EA EC 01 00 00 00 00       * BF5BDA98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 77 50 6D 52 65 66 00 Internal length = 771 -> SSDT-2x.aml
+18:505  0:017        * BF5BC798: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1855  53 53 44 54 3F 07 00 00 01 2B 50 6D 52 65 66 00 Internal length = 1855 -> SSDT-3x.aml
+18:516  0:011        * BF5BBD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 ED 50 6D 52 65 66 00 Internal length = 281 -> SSDT-4x.aml
+18:530  0:013   -> SSDT-1.aml
+18:542  0:012    7. BF79CC18: 'SLIC', 'Notebook', Rev: 1, Len: 374 -> SLIC.aml
+18:556  0:014    8. BF789A98: 'SSDT', 'SataTabl', Rev: 1, Len: 751 -> SSDT-5.aml
+18:566  0:010    Tables in Rsdt: 9
+18:566  0:000    0. BF79BF18: 'FACP', 'NoteBook', Rev: 2, Len: 132 -> RSDT-FACP.aml
+18:580  0:013        (Dsdt: BF767018, Facs: BF7E5E40)
+18:580  0:000        BF767018: 'DSDT', 'NoteBook', Rev: 1, Len: 42600
+18:582  0:002        BF7E5E40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+18:595  0:013    1. BF7FDF18: 'APIC', 'NoteBook', Rev: 2, Len: 204
+18:595  0:000    2. BF7E6D18: 'HPET', 'NoteBook', Rev: 1, Len: 56
+18:595  0:000    3. BF7E5B18: 'ECDT', 'NoteBook', Rev: 1, Len: 193
+18:595  0:000    4. BF7E6C98: 'MCFG', 'NoteBook', Rev: 1, Len: 60
+18:595  0:000    5. BF77E018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2011
+18:595  0:000    6. BF77D018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+18:595  0:000    7. BF79CC18: 'SLIC', 'Notebook', Rev: 1, Len: 374
+18:595  0:000    8. BF789A98: 'SSDT', 'SataTabl', Rev: 1, Len: 751
+18:595  0:000  Found UEFI Acpi 2.0 RSDP at 1FF3A000
+18:595  0:000  Printing ACPI tables from RSDP 1FF3A000 ...
+18:595  0:000   1FF3A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+18:595  0:000    (Xsdt: BF7FEE18, Rsdt: BF7FEF18)
+18:595  0:000    BF7FEE18: 'XSDT', 'Notebook', Rev: 1, Len: 108
+18:595  0:000    BF7FEF18: 'RSDT', 'Notebook', Rev: 1, Len: 72
+18:595  0:000    Tables in Xsdt: 9
+18:595  0:000    0. BF79BD98: 'FACP', 'NoteBook', Rev: 4, Len: 244
+18:595  0:000        (Dsdt: BF767018, Facs: BF7E5E40, XDsdt: BF767018, XFacs: BF7E5D40)
+18:595  0:000        BF767018: 'DSDT', 'NoteBook', Rev: 1, Len: 42600
+18:596  0:000        BF7E5D40: 'FACS', Ver: 1, Len: 64
+18:596  0:000    1. BF7FDF18: 'APIC', 'NoteBook', Rev: 2, Len: 204
+18:596  0:000    2. BF7E6D18: 'HPET', 'NoteBook', Rev: 1, Len: 56
+18:596  0:000    3. BF7E5B18: 'ECDT', 'NoteBook', Rev: 1, Len: 193
+18:596  0:000    4. BF7E6C98: 'MCFG', 'NoteBook', Rev: 1, Len: 60
+18:596  0:000    5. BF77E018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2011
+18:596  0:000    6. BF77D018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+18:596  0:000    7. BF79CC18: 'SLIC', 'Notebook', Rev: 1, Len: 374
+18:596  0:000    8. BF789A98: 'SSDT', 'SataTabl', Rev: 1, Len: 751
+18:596  0:000    Tables in Rsdt: 9
+18:596  0:000    0. BF79BF18: 'FACP', 'NoteBook', Rev: 2, Len: 132
+18:596  0:000        (Dsdt: BF767018, Facs: BF7E5E40)
+18:596  0:000        BF767018: 'DSDT', 'NoteBook', Rev: 1, Len: 42600
+18:597  0:000        BF7E5E40: 'FACS', Ver: 0, Len: 64
+18:597  0:000    1. BF7FDF18: 'APIC', 'NoteBook', Rev: 2, Len: 204
+18:597  0:000    2. BF7E6D18: 'HPET', 'NoteBook', Rev: 1, Len: 56
+18:597  0:000    3. BF7E5B18: 'ECDT', 'NoteBook', Rev: 1, Len: 193
+18:597  0:000    4. BF7E6C98: 'MCFG', 'NoteBook', Rev: 1, Len: 60
+18:597  0:000    5. BF77E018: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2011
+18:597  0:000    6. BF77D018: 'SSDT', 'CpuPm', Rev: 1, Len: 2454
+18:597  0:000    7. BF79CC18: 'SLIC', 'Notebook', Rev: 1, Len: 374
+18:597  0:000    8. BF789A98: 'SSDT', 'SataTabl', Rev: 1, Len: 751
